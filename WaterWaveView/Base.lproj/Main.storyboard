@@ -116,9 +116,9 @@ dmVkLg
                                     <constraint firstAttribute="height" constant="50" id="HRi-4r-jIk"/>
                                     <constraint firstAttribute="width" constant="210" id="kbs-aA-App"/>
                                 </constraints>
-                                <state key="normal" title="stopAnimation"/>
+                                <state key="normal" title="startAnimation"/>
                                 <connections>
-                                    <action selector="beginAnimation:" destination="6ze-j0-1d6" eventType="touchUpInside" id="yyN-cg-hHK"/>
+                                    <action selector="startAnimation:" destination="6ze-j0-1d6" eventType="touchUpInside" id="ILt-RY-N2C"/>
                                 </connections>
                             </button>
                         </subviews>

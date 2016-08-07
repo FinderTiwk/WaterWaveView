@@ -53,7 +53,7 @@
 }
 
 #pragma mark - IBAction
-- (IBAction)beginAnimation:(UIButton *)sender {
+- (IBAction)startAnimation:(UIButton *)sender {
     [_waterWaveView startAnimation];
     // 模拟下载进度
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(download) userInfo:nil repeats:YES];
